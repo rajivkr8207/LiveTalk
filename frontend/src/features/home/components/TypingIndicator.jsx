@@ -1,5 +1,3 @@
-// TypingIndicator.jsx
-import React from 'react';
 
 function TypingIndicator({ users }) {
   const getTypingText = () => {

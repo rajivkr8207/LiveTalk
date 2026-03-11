@@ -1,6 +1,3 @@
-// ChatMessage.jsx
-import React from 'react';
-
 function ChatMessage({ message, isOwnMessage, formatTime }) {
   if (message.type === 'system') {
     return (
